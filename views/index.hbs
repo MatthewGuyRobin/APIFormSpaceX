@@ -1,0 +1,23 @@
+<body>
+    <div class="SpaceX-container">
+        <div class="holder"> 
+        <h1>SpaceX Mission Inquiry</h1>
+        <br>
+        <p>Simply input a flight number between 1 - 102. Will show future flights 106 & 112 for details of SpaceX mission</p>
+        <br>
+
+        <ul>
+            {{#each data}}
+            <li> {{@key}} : {{this}}</li>
+            {{/each}}
+        </ul>
+            <br>
+        <form action="/" method="POST">
+            <label for="flightnumber">Flight Number: </label>
+            <input type="text" name="flight">
+            <input type="Submit" value="Submit">
+        </form>
+</div>
+    </div>
+<br>
+</body>

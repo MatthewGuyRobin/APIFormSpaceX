@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    
+
+}
+
+.SpaceX-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    background-size: cover;
+    color: azure;
+    height:100vh;
+    background-image: url('./img/16414.jpg');
+}
+
+li{
+    font-family: 'Dosis', sans-serif;
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Roboto Mono', monospace;
+}
